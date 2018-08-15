@@ -1,0 +1,84 @@
+body
+{
+	background: url('image/background.jpg') fixed ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+a:link{
+	color: White;
+}
+
+a:visited{
+	color: White;
+}
+a:active{
+	color: White;
+}
+
+.head
+{
+	border-radius: 8px;
+	background-color: rgba(0,0,0,0.5);
+	width: 14%;
+	color: rgba(0,0,0,0);
+	font-size: 16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	display: inline-block;
+}
+
+.footer
+{
+	background-color: rgba(0,0,128,0.6); 
+}
+
+.foo
+{
+	width: 28.5%;
+}
+
+.spacing
+{
+	padding-right: 6px;
+}
+
+.box1
+{
+	width: 40%;
+	background-color: rgba(0,250,250,0.6);
+}
+
+.bg1
+{
+	border-radius: 8px;
+	background-color: rgba(0,0,255,0.6);
+	padding-left: 7px;
+}
+
+.frame2
+{
+	background-color: rgba(1,230,200,.9);
+	padding-left: 8px;
+	border-radius: 8px;
+}
+
+
+.gr
+{
+	width: 360px;
+}
+
+.back
+{
+	width:1170px;
+	margin-left: 180px; 
+	color: Blue;
+}
+
+.tense
+{
+	text-decoration-color: White;
+}

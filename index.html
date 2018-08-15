@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="image/Job-Fair.png" rel="icon"/>
+<title>JOBS AT MAIL</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ 
+<link href="style.css" rel="stylesheet">
+
+<script>
+var imgarr=["job1.jpg","job2.jpg","job3.jpg","job4.jpg","job5.jpg","job6.jpg","job7.jpg","job8.jpg"];
+var i=0;
+function slider()
+{
+var imgslide=document.getElementById("image");
+imgslide.src="image/"+imgarr[i];
+i++;
+if(i==imgarr.length)  
+{
+i=0;
+}
+window.setTimeout("slider()",1000);
+
+}
+</script>
+
+  </head>
+
+  <body  onload="slider()">
+   <div class="back">
+   
+  <div class="head">
+    <a  href="index.html" >Home</a>
+   </div>
+  <div class="head">
+    <a  href="jobseeker.php">Jobseeker</a>
+   </div>
+  <div class="head">
+     <a href="employer.php">Employer</a>
+  </div>
+  <div class="head">
+     <a href="admin.php">Admin</a>
+  </div>
+  <div class="head">
+     <a href="aboutus.html">Contact Us</a>
+  </div>
+  <div class="head">
+     <a  href="login.html">Login</a>
+  </div>
+  <div class="head">
+     <a href="logout.php">Logout</a>
+  </div>
+  <div class="center">
+  <img id="image" width="100%" height="440px"/>   
+  </div>
+
+   <div class="frame2">
+    <table >
+      <tr>
+        <td width="13%" class="spacing">
+        
+         <h4>Jobs at mail</h4>
+         <br>
+          <span class="glyphicon glyphicon-tint" aria-hidden="true"></span><a href="#">All jobs</a>
+          <br><br>
+          <span class="glyphicon glyphicon-tint" aria-hidden="true"></span><a href="#">IIT/IIM jobs</a>
+          <br><br>
+          <span class="glyphicon glyphicon-tint" aria-hidden="true"></span><a href="#">Govt. jobs</a>
+          <br><br>
+          <span class="glyphicon glyphicon-tint" aria-hidden="true"></span><a href="#">International jobs</a>
+          <br><br>
+          <span class="glyphicon glyphicon-tint" aria-hidden="true"></span><a href="#">Freshers</a>
+        </td>
+        <td class="spacing">
+
+            <div class="bg1">
+            <br>
+            <font color="white"><center><h4><br>Mission</h4></center></font>
+            <div class="alert alert-info" role="alert">
+                <div class="media">
+                 <div class="media-left">
+                  <img src="image/icon1.jpg" width="90" height="60" class="img_box" alt="" />
+                 </div>
+                <div class="media-body">
+                 <span class="b">Here you can easily find a great job.</span><br>
+                   <span class="b">"All jobs at one click. Amazing!"</span><br/><br/><br/><br/>
+                   <div class="read"><a href="#">read more</a></div>
+                 </div>
+                </div>
+            </div>
+          </div>
+        </td>
+        <td class="spacing">
+          
+          <div class="bg1">
+            <br>
+            <font color="white"><center><h4><br>The Teamwork</h4></center></font>
+            <div class="alert alert-info" role="alert">
+                <div class="media">
+                 <div class="media-left">
+                  <img src="image/icon2.jpg" width="90" height="60" class="img_box" alt="" />
+                 </div>
+                <div class="media-body">
+                 <span class="b">Our support team is working hard to cover all kind of job.</span>
+                   <span class="b">"Great team to help you 24X7."</span><br/><br/><br/>
+                   <div class="read"><a href="#">read more</a></div>
+                 </div>
+                </div>
+            </div>
+          </div>
+
+        </td>
+
+        <td class="spacing">
+          
+          <div class="bg1">
+            <br>
+            <font color="white"><center><br><h4>Why Support Us</h4></center></font>
+            <div class="alert alert-info" role="alert">
+                <div class="media">
+                 <div class="media-left">
+                  <img src="image/icon3.jpg" width="90" height="60" class="img_box" alt="" />
+                 </div>
+                <div class="media-body">
+                 <span class="b">We provide each and everyone information about jobs at zero cost.</span>
+                   <span class="b">"Help us to make this easy."</span><br/><br/>
+                   <div class="read"><a href="#">read more</a></div>
+                 </div>
+                </div>
+            </div>
+          </div>
+
+        </td>
+        
+        <td class="spacing">
+          
+          <div class="bg1">
+            <br>
+            <font color="white"><center><br><h4>Upcoming Camp</h4></center></font>
+            <div class="alert alert-info" role="alert">
+                <div class="media">
+                 <div class="media-left">
+                  <img src="image/icon4.jpg" width="90" height="60" class="img_box" alt="" />
+                 </div>
+                <div class="media-body">
+                 <span class="b">We are going to held seminars at different colleges.</span>
+                   <span class="b">UPCOMIG :"27-28 Aug at LBSIMDS lucknow."</span><br/>
+                   <div class="read"><a href="#">read more</a></div>
+                 </div>
+                </div>
+            </div>
+          </div>
+
+        </td>
+
+      </tr>
+    </table>
+  </div>
+
+<br><br>
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="image/Amazon.jpg">
+      <div class="Amazon Jobs">
+        <h3>Get Placed At MNC's</h3>
+        <p>We provide information of all job openings, domestic as well as from other parts of word</p>
+      </div>
+    </div>
+    <br><br>
+    <marquee>
+   <a href="signup.html"><h1>Register Here</h1></a>
+    </marquee>
+    <br><font color="White"><h3>You can create your profile here.</h3></font>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="image/TCS.png">
+      <div class="Mass Recruiters">
+        <h3>Get 100% placement</h3>
+        <p>We provide information about all job openings by mass recruiters</p>
+      </div>
+    </div>
+     <div class="thumbnail">
+      <img src="image/govt.jpg">
+      <div class="Amazon Jobs">
+        <h3>Government Jobs</h3>
+        <p>We provide information of all job openings, and examinations to get selected for governmnet jobs.</p>
+      </div>
+    </div>
+
+  </div>
+<div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="image/jobfair.jpg"  height="500" width="500">
+      <div class="Amazon Jobs">
+        <h3>Job Fairs</h3>
+        <p>We provide information of all job fairs.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="footer">    
+      <table >
+      <tr>
+      <td class="foo">
+      <font color="Black"><h2>Information</h2></font>
+      <div class="month"><a href="aboutus.html"><h4>About Us</h4></a></div>
+      <div class="month"><a href="#"><h4>Terms & Condition</h4></a></div>
+      <div class="month"><a href="#"><h4>Privacy Policy</h4></a></div>
+      <div class="month"><a href="#"><h4>Careers with Us</h4></a></div>
+      <div class="month"><a href="site_map.php"><h4>Sitemap</h4></a></div>
+      <div class="month"><a href="#"><h4>FAQs</h4></a></div>
+      <div class="month"><a href="#"><h4>Grievances</h4></a></div>
+      </td>
+      <td class="foo">
+      <font color="Black"><h2>Jobseekers</h2></div></font>
+      <div class="month"><a href="jobseeker.php"><h4>Register Now</h4></a></div>
+      <div class="month"><a href="#"><h4>Blogs</h4></a></div>
+      <div class="month"><a href="#"><h4>Mobile Site</h4></a></div>
+      <div class="month"><a href="#"><h4>Fast Forward</h4></a></div>
+      <div class="month"><a href="#"><h4>Resume Writing</h4></a></div>
+      <div class="month"><a href="profile_jupdate.php"><h4>Profile Enhancement</h4></a></div>
+      <div class="month"><a href="#"><h4>Recruiters Reach</h4></a></div>
+      </td>
+      <td class="foo">
+      <font color="Black"><h2>Browse Jobs</h2></font>
+      <div class="month"><a href="#"><h4>Browse All Jobs</h4></a></div>
+      <div class="month"><a href="#"><h4>Jobs by Category</h4></a></div>
+      <div class="month"><a href="#"><h4>Jobs by Company</h4></a></div>
+      <div class="month"><a href="#"><h4>Jobs by Designation</h4></a></div>
+      <div class="month"><a href="#"><h4>Jobs by Location</h4></a></div>
+      <div class="month"><a href="#"><h4>Jobs by Skill</h4></a></div>
+      <br>
+      </td>
+      <td class="foo">
+      <font color="Black"><h2>Employers</h2></font>
+      <div class="month"><a href="login.php"><h4>Post Jobs</h4></a></div>
+      <div class="month"><a href="#"><h4>Access database</h4></a></div>
+      <div class="month"><a href="#"><h4>Manage Responses</h4></a></div>
+      <div class="month"><a href="#"><h4>Buy Online</h4></a></div>
+      <font color="Black"><h4>Follow Us</h4></font>
+      <a href="#"><img src="image/face.png" width="50" height="50"></img></a>
+      <a href="#"><img src="image/twitter.jpg" width="50" height="50"></img></a>
+      <a href="#"><img src="image/google.png" width="50" height="50"></img></a>
+      </td>
+      
+      </div>
+<!-- footer ends -->
+</div>
+
+
+
+    </div>
+  </body>
+</html>
